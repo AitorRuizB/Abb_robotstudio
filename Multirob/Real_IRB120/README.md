@@ -9,7 +9,7 @@
 
 <p align="center">
   <!-- Optional: Replace demo_real.gif with your actual GIF filename if you generate one -->
-  <img src="demo_real.gif" alt="Real ABB IRB 120 Cooperative Box Lifting" width="650">
+  <img src="img.png" alt="Real ABB IRB 120 Cooperative Box Lifting" width="650">
 </p>
 
 ## 📌 Overview
