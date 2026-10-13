@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-  <!-- Sustituye docs/demo.gif por la ruta real de tu GIF o pega el link de tu vídeo -->
-  <img src="docs/demo.gif" alt="ABB RobotStudio Simulation Demo" width="700">
+  
+  <img src="demo.gif" alt="ABB RobotStudio Simulation Demo" width="700">
 </p>
 
 ## 📌 Overview
@@ -57,10 +57,3 @@ The cell consists of 3 input conveyors and 3 output conveyors. Boxes of three di
 | `CB_InPos` | `DI` | Confirms box is stopped and ready at pick position |
 | `TCP_InPos` / `TCP_End` | `DO` | Triggers `Attacher` (grasp) and `Detacher` (release) |
 | `Attached_Done` | `DI` | Feedback signal confirming object attachment to TCP |
-
-## 💻 How to Run the Simulation
-
-1. **Prerequisites:** Install **ABB RobotStudio** with the appropriate RobotWare add-ins for the IRC5 controller.
-2. **Unpack the Station:** Open RobotStudio, go to `File` $\rightarrow$ `Unpack & Work`, and select the `.rspag` (Pack & Go) file included in this repository.
-3. **Open the FlexPendant (Crucial):** Navigate to the `Controller` tab and launch the **Virtual FlexPendant**. *Note: The simulation will halt if you do not interact with the FlexPendant screen.*
-4. **Start Simulation:** Press `Play` in the Simulation tab, then use the Virtual FlexPendant keypad to enter the number of Small, Medium, and Large boxes you wish to process.
