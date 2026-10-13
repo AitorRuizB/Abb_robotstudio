@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-  <!-- Sustituye docs/demo.gif por la ruta real de tu GIF o pega el link de tu vídeo -->
-  <img src="docs/demo.gif" alt="ABB RobotStudio Simulation Demo" width="700">
+  
+  <img src="demo.gif" alt="ABB RobotStudio Simulation Demo" width="700">
 </p>
 
 ## 📌 Overview
